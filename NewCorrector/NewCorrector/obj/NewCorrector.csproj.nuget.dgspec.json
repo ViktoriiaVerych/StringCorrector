@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\NewCorrector\\NewCorrector.csproj": {}
+    "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\StringCorrector\\NewCorrector\\NewCorrector\\NewCorrector.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\NewCorrector\\NewCorrector.csproj": {
+    "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\StringCorrector\\NewCorrector\\NewCorrector\\NewCorrector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\NewCorrector\\NewCorrector.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\StringCorrector\\NewCorrector\\NewCorrector\\NewCorrector.csproj",
         "projectName": "NewCorrector",
-        "projectPath": "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\NewCorrector\\NewCorrector.csproj",
+        "projectPath": "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\StringCorrector\\NewCorrector\\NewCorrector\\NewCorrector.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\NewCorrector\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\RiderProjects\\NewCorrector\\StringCorrector\\NewCorrector\\NewCorrector\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
