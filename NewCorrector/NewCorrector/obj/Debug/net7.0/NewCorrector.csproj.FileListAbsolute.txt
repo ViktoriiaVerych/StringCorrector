@@ -1,0 +1,15 @@
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.AssemblyInfo.cs
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\bin\Debug\net7.0\NewCorrector.exe
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\bin\Debug\net7.0\NewCorrector.deps.json
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\bin\Debug\net7.0\NewCorrector.runtimeconfig.json
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\bin\Debug\net7.0\NewCorrector.dll
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\bin\Debug\net7.0\NewCorrector.pdb
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.dll
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\refint\NewCorrector.dll
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.pdb
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\NewCorrector.genruntimeconfig.cache
+C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\obj\Debug\net7.0\ref\NewCorrector.dll
