@@ -71,8 +71,8 @@ public class Checker
             string firstElement = table[i, 0];
             for (int j = 2; j <= second.Length + 1; j++)
             {
-                string secElement = table[0, j];
-                if (firstElement == secElement)
+                string secondElement = table[0, j];
+                if (firstElement == secondElement)
                 {
                     table[i, j] = (Int32.Parse(table[i - 1, j - 1]) + 1).ToString();
                 }
