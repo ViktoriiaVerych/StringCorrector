@@ -52,7 +52,45 @@ public class Checker
 
     private int LCS(string first, string second)
     {
-        //later by Viktoriia
+        string[,] table = new string[first.Length + 2, second.Length + 2];
+        table[1, 1] = "0";
+        for (int i = 2, j = 0; i <= first.Length + 1; i++, j++)
+        {
+            table[i, 0] = first[j].ToString();
+            table[i, 1] = "0";
+        }
+
+        for (int i = 2, j = 0; i <= second.Length + 1; i++, j++)
+        {
+            table[0, i] = second[j].ToString();
+            table[1, i] = "0";
+        }
+
+        for (int i = 2; i <= first.Length + 1; i++)
+        {
+            string firstElement = table[i, 0];
+            for (int j = 2; j <= second.Length + 1; j++)
+            {
+                string secElement = table[0, j];
+                if (firstElement == secElement)
+                {
+                    table[i, j] = (Int32.Parse(table[i - 1, j - 1]) + 1).ToString();
+                }
+                else
+                {
+                    if (Int32.Parse(table[i, j - 1]) > Int32.Parse(table[i - 1, j]))
+                    {
+                        table[i, j] = table[i, j - 1];
+                    }
+                    else
+                    {
+                        table[i, j] = table[i - 1, j];
+                    }
+                }
+            }
+        }
+
+        return Int32.Parse(table[first.Length + 1, second.Length + 1]);
     }
 
 
