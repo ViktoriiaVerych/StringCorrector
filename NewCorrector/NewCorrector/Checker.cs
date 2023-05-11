@@ -20,6 +20,8 @@ public class Checker
                 mistakesInWords.Add(word);
             }
         }
+        
+        
 
         return mistakesInWords;
     }
@@ -50,6 +52,8 @@ public class Checker
         return suitableWords;
     }
 
+ 
+
     private int LCS(string first, string second)
     {
         string[,] table = new string[first.Length + 2, second.Length + 2];
@@ -72,6 +76,7 @@ public class Checker
             for (int j = 2; j <= second.Length + 1; j++)
             {
                 string secondElement = table[0, j];
+                // if matches
                 if (firstElement == secondElement)
                 {
                     table[i, j] = (Int32.Parse(table[i - 1, j - 1]) + 1).ToString();
@@ -114,10 +119,20 @@ public class Checker
         {
             for (var j = 1; j <= secondWordLength; j++)
             {
-                var substitutionCost = 1;
+                int substitutionCost;
+                
                 if (s[j - 1] == f[i - 1])
                 {
                     substitutionCost = 0;
+                }
+                else
+                {
+                    substitutionCost = 1;
+                }
+                // transposition / damerau-levenshtein
+                if (i > 1 && j > 1 && f[i - 1] == s[j - 2] && f[i - 2] == s[j - 1])
+                {
+                    substitutionCost = Math.Min(substitutionCost, matrix[i - 2, j - 2] + substitutionCost);
                 }
 
                 matrix[i, j] = Math.Min(matrix[i - 1, j] + 1, Math.Min(matrix[i, j - 1] + 1, matrix[i - 1, j - 1] + substitutionCost));
