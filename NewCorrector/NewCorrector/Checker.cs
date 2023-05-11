@@ -114,10 +114,13 @@ public class Checker
         {
             for (var j = 1; j <= secondWordLength; j++)
             {
-                var substitutionCost = ( s[j-1] == f[i-1] ) ? 0 : 1;
-                matrix[i, j] = Math.Min(
-                    Math.Min(matrix[i - 1, j] + 1, matrix[i, j - 1] + 1),
-                    matrix[i - 1, j - 1] + substitutionCost);
+                var substitutionCost = 1;
+                if (s[j - 1] == f[i - 1])
+                {
+                    substitutionCost = 0;
+                }
+
+                matrix[i, j] = Math.Min(matrix[i - 1, j] + 1, Math.Min(matrix[i, j - 1] + 1, matrix[i - 1, j - 1] + substitutionCost));
             }
         }
 
