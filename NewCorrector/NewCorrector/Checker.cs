@@ -98,6 +98,29 @@ public class Checker
     {
         var firstWordLength = f.Length;
         var secondWordLength = s.Length;
-        //later by Annechka
+        
+        var matrix = new int[firstWordLength + 1, secondWordLength + 1];
+
+        if (firstWordLength == 0) //якщо спільного немає, повертає повну іншу стрінгу
+            return secondWordLength;
+        if (secondWordLength == 0)
+            return firstWordLength;
+        //стоврюємо матрицю фьорстворд рядок, секондворд стовбець
+        for (var i = 0; i <= firstWordLength; matrix[i, 0] = i++){}
+        for (var j = 0; j <= secondWordLength; matrix[0, j] = j++){}
+        
+        //рахуємо відстань рядка і стовпця
+        for (var i = 1; i <= firstWordLength; i++)
+        {
+            for (var j = 1; j <= secondWordLength; j++)
+            {
+                var substitutionCost = ( s[j-1] == f[i-1] ) ? 0 : 1;
+                matrix[i, j] = Math.Min(
+                    Math.Min(matrix[i - 1, j] + 1, matrix[i, j - 1] + 1),
+                    matrix[i - 1, j - 1] + substitutionCost);
+            }
+        }
+
+        return matrix[firstWordLength, secondWordLength];
     }
 }
