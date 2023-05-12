@@ -3,6 +3,7 @@
 public class Checker
 {
     private readonly List<string> _data;
+    // private readonly -- can't inadvertently change it from another part of that class after it is initialized
     //constuctor
     public Checker( List<string> data)
     {
@@ -79,6 +80,7 @@ public class Checker
                 // if matches
                 if (firstElement == secondElement)
                 {
+                    // Int32.Parse converts the string representation of a number to its 32-bit signed integer equivalent
                     table[i, j] = (Int32.Parse(table[i - 1, j - 1]) + 1).ToString();
                 }
                 else
