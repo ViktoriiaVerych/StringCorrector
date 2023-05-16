@@ -1,16 +1,16 @@
 ﻿
 public class Program
 {
-    private static List<string> data;
+    // private static List<string> data;
 
     public static void Main(string[] args)
     {
-        data = new List<string>();
-
-        foreach (var line in File.ReadAllLines(@"C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\WordList.txt"))
-        {
-            data.Add(line);
-        }
+        // data = new List<string>();
+        //
+        // foreach (var line in File.ReadAllLines(@"C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\WordList.txt"))
+        // {
+        //     data.Add(line);
+        // }
 
         Console.WriteLine("Enter string s: ");
         string t = Console.ReadLine();
