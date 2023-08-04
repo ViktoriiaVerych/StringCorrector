@@ -1,5 +1,13 @@
 ﻿namespace NewCorrector;
+/*
+The Checker class in the NewCorrector namespace handles typo detection and correction tasks.
+It accepts a reference data list during initialization to compare words against.
+TyposChecking method identifies words not present in the reference data.
+SuitableWords method finds potential correction candidates based on the Longest Common Subsequence (LCS) algorithm and Levenshtein distance.
+LCS method implements the Longest Common Subsequence algorithm to find the length of the longest common subsequence between two strings.
+Levenshtein method calculates the Levenshtein distance between two strings, considering insertions, deletions, substitutions, and transpositions.
 
+*/
 public class Checker
 {
     private readonly List<string> _data;
