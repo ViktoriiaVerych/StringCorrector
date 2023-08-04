@@ -1,6 +1,13 @@
 ﻿using System.Collections;
 using NewCorrector;
+/*
+The code initializes the Checker class with reference data from a file.
+It interacts with the user to input sentences and then identifies typos and suggests corrections.
+The Fixer function removes separators and empty elements from the words list.
+The loop continues until the user decides to end by entering "no" when prompted.
+Detected typos are displayed, and suggestions for suitable corrections are provided.
 
+*/
 var data = new List<string>();
 
 foreach (var line in File.ReadAllLines(@"C:\Users\Admin\RiderProjects\NewCorrector\StringCorrector\NewCorrector\NewCorrector\WordList.txt"))
