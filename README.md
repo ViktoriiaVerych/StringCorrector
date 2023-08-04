@@ -47,3 +47,5 @@ For example, if you want to transform the word "kitten" into "sitting," the Leve
 ### The Damerau-Levenshtein distance
 The Damerau-Levenshtein distance is an extension of the Levenshtein distance algorithm that includes transposition of adjacent characters as a valid edit operation, in addition to insertion, deletion, and substitution. This inclusion of transpositions makes the Damerau-Levenshtein algorithm more suitable for certain applications where transposition errors are common, such as detecting typos involving swapped adjacent characters.
 
+## Assignment 5 Description:
+https://github.com/kse-ua/algorithms/blob/main/assignments_2023/assignment_5.md
