@@ -1,6 +1,5 @@
 # Perhaps you meant ..?
 
-In this project, our goal is to develop a straightforward system capable of detecting and rectifying spelling errors within words. The project is divided into two main segments: an initial foundational phase, which spans the first week and encompasses the initial two practical sessions, and the subsequent primary phase. Points can only be earned during the initial phase, serving as preparation, while the primary phase constitutes the core of the project.
 
 
 ## The following tasks were accomplished in this project:
